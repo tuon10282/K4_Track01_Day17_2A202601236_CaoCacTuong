@@ -30,7 +30,8 @@ cách xử lý.
 
 | File | Nội dung |
 |---|---|
-| [chang-1-dat-gia-thuyet.md](chang-1-dat-gia-thuyet.md) | Chặng 1 — Đặt giả thuyết: chuỗi Solution → Change → Actor → Situation & Job → Pain → Evidence, hai pain hypothesis cạnh tranh, Problem Hypothesis chốt lại, Solution Parking Lot, Checkpoint 1 |
+| [chang-1-dat-gia-thuyet.md](chang-1-dat-gia-thuyet.md) | Chặng 1 — Đặt giả thuyết (bản phân tích chi tiết) |
+| [cp1-phuong.md](cp1-phuong.md) | Chặng 1 — Checkpoint 1 (bản template điền sẵn - Phương) |
 | [plan.md](plan.md) | Kế hoạch làm việc và phân công theo 4 chặng của buổi học |
 | [README.md](README.md) | File này |
 
