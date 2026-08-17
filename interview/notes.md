@@ -13,7 +13,7 @@
 | Thông tin | Chi tiết |
 |---|---|
 | Interviewer | Cao Các Tường (2A202601236) |
-| Người đóng vai User | Đinh Lê Quỳnh Phương (2A202601865) |
+| Người đóng vai User | Nguyễn Quang Huy — 2A202601873|
 | Kịch bản | Số 1 — Khoá Controlled Agent Security (VinBank / AI Security Lab) |
 | Ngày | 17/08/2026 |
 | Thời lượng | ~20 phút |
@@ -113,7 +113,7 @@ bản đối chiếu, cần thêm lượt 2 (Phương làm interviewer) để ch
 | Thông tin | Chi tiết |
 |---|---|
 | Interviewer | Đinh Lê Quỳnh Phương (2A202601865) |
-| Người đóng vai User | Cao Các Tường (2A202601236) |
+| Người đóng vai User | Lăng Thị Phương Huế — 2A202601915  |
 | Kịch bản | Số 2 — Khoá RAG Pipeline v2 (Retrieval Hybrid, Vectorless Fallback & Generation có Citation) |
 | Ngày | 17/08/2026 |
 | Thời lượng | ~20 phút |
