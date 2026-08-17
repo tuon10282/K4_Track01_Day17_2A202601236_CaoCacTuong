@@ -8,7 +8,7 @@
 
 ---
 
-# Lượt 1 — Tường (Interviewer) · Phương (User)
+# Lượt 1 — Tường (Interviewer) · Huy (User)
 
 | Thông tin | Chi tiết |
 |---|---|
@@ -108,7 +108,7 @@ bản đối chiếu, cần thêm lượt 2 (Phương làm interviewer) để ch
 
 ---
 
-# Lượt 2 — Phương (Interviewer) · Tường (User)
+# Lượt 2 — Phương (Interviewer) · Huế (User)
 
 | Thông tin | Chi tiết |
 |---|---|
