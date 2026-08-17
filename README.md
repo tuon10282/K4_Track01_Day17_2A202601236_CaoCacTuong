@@ -160,7 +160,7 @@ Guide đã sẵn sàng để phỏng vấn người thật trong 7 ngày gần �
 Track1_Day17_2A202601236_CaoCacTuong/
 ├── README.md                     ← file này
 ├── interview/
-│   ├── notes.md                  ← Interview Record lượt Tường làm interviewer
+│   ├── notes.md                  ← Interview Record 2 lượt luyện phỏng vấn
 │   ├── recording1.m4a            ← bản ghi lượt 1 (Tường interviewer)
 │   └── recording2.m4a            ← bản ghi lượt 2 (Phương interviewer)
 ├── cp1/                          ← tài liệu Chặng 1 (giả thuyết)
@@ -170,7 +170,7 @@ Track1_Day17_2A202601236_CaoCacTuong/
 
 | File | Nội dung |
 |---|---|
-| [interview/notes.md](interview/notes.md) | Interview Record lượt phỏng vấn của Tường (lượt 1, kịch bản Controlled Agent Security) |
+| [interview/notes.md](interview/notes.md) | Interview Record 2 lượt luyện phỏng vấn (lượt 1 Tường hỏi / lượt 2 Phương hỏi) |
 | [interview/recording1.m4a](interview/recording1.m4a) · [interview/recording2.m4a](interview/recording2.m4a) | Bản ghi audio hai lượt phỏng vấn luyện tập |
 | [cp1/cp1-outcome.md](cp1/cp1-outcome.md) | Chặng 1 — tổng hợp Problem Hypothesis (bản nộp chính) |
 | [cp1/chang-1-dat-gia-thuyet.md](cp1/chang-1-dat-gia-thuyet.md) | Chặng 1 — bản phân tích chi tiết 4 lớp |
