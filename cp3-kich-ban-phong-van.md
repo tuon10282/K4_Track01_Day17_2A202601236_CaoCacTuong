@@ -20,13 +20,13 @@
 
 > **Bối cảnh:** Learner đang học khoá lập trình online về *Controlled Agent Security* (xây agent cho VinBank: guardrails, HITL, red-teaming), mắc ở một bước trong bài lab và không hiểu khái niệm nền.
 
-### **Q1. Trong 7 ngày gần đây, có lần nào bạn học mà xem lại video/code vẫn không hiểu một phần không?**
+### **Q1. Trong khoảng 7 ngày gần đây, có lần nào bạn học mà đọc/xem lại bài giảng vẫn thấy không hiểu một phần không?**
 
 > **A (User — kể thật):** Có. Tối thứ 6 em học bài lab `Controlled Agent Security` thì làm bước dựng `egress policy` chạy test trượt 2 lần, xem lại đoạn video hướng dẫn vẫn không hiểu tại sao bị chặn.
 
 ---
 
-### **Q2. Kể mình nghe về lần gần nhất đó — bài gì, học lúc nào?**
+### **Q2. Kể mình nghe về lần gần nhất đó — bài học đó là bài gì và bạn học vào lúc nào vậy?**
 
 > **A:** Bài `Guardrails, HITL & Red Teaming` của khoá `AI Agent Security`. Em học khoảng 10h tối, đang code theo starter repo thì bước `HITL approve` không chạy như hướng dẫn.
 
@@ -80,15 +80,15 @@
 
 > **Bối cảnh:** Learner đang học khoá *AI Engineering*, làm bài lab *"RAG Pipeline v2: Retrieval Hybrid, Vectorless Fallback & Generation có Citation"*. Learner mắc kẹt ở bước cấu hình cơ chế Vectorless Fallback kết hợp BM25 và trích xuất Citation metadata khi sinh câu trả lời.
 
-### **Q1. Trong tuần qua, có buổi học RAG nào mà bạn ngồi viết code hay chạy test bài lab mà bị "nghẽn" lại, tua đi tua lại bài giảng vẫn không qua được không?**
+### **Q1. Trong 7 ngày qua, có buổi nào bạn ngồi học mà bị "nghẽn" lại ở một đoạn khó, xem đi xem lại bài giảng vẫn không thể làm tiếp được không?**
 
 > **A (User — kể thật):** Có chứ. Tối thứ 4 vừa rồi em làm bài lab RAG Pipeline v2, bị kẹt ở đoạn cấu hình `Vectorless Fallback` dùng BM25 khi vector database bị timeout. Chạy suite test case fallback toàn báo lỗi, xem lại slide với video hướng dẫn 3 lần vẫn không hiểu nguyên do.
 
 ---
 
-### **Q2. Bạn nhớ lại lúc đó xem, cụ thể là bạn đang làm tới bước nào của bài lab và lúc đó là mấy giờ đêm rồi?**
+### **Q2. Bạn nhớ lại lần gần nhất đó xem — lúc đó bạn đang học bài gì và học vào lúc nào vậy?**
 
-> **A:** Tầm 10h tối thứ 4. Em đang gộp kết quả tìm kiếm giữa BM25 với Dense Vector để sinh `Citation metadata` đính kèm vào câu trả lời của LLM thì unit test bị trượt ngay dòng tính điểm fusion.
+> **A:** Bài lab *"RAG Pipeline v2: Retrieval Hybrid, Vectorless Fallback & Generation có Citation"* thuộc khoá AI Engineering. Em học lúc tầm 10h tối thứ 4, đang gộp kết quả tìm kiếm giữa BM25 với Dense Vector để sinh Citation metadata thì unit test bị trượt ngay dòng tính điểm fusion.
 
 ---
 
