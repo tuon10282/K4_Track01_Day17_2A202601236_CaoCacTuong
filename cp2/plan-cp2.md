@@ -14,7 +14,7 @@ pain, **không** mời user đánh giá solution.
 | Viết Conversation Guide | 15' |
 | Tự rà soát + phân công phỏng vấn | 5' |
 
-> Nguồn đầu vào: [cp1-outcome.md](cp1-outcome.md) — đặc biệt Problem Hypothesis (Mục 7), Evidence Map
+> Nguồn đầu vào: [cp1-outcome.md](../cp1/cp1-outcome.md) — đặc biệt Problem Hypothesis (Mục 7), Evidence Map
 > (Mục 6), 7 điều phải đúng, bảng falsifier, và tiêu chí tuyển người (Mục 9).
 
 ---

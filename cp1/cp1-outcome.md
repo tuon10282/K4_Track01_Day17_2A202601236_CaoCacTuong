@@ -238,7 +238,7 @@ xem lại vở cũ, tìm video khác). Job được phát biểu đúng cao đ�
 
 **Kết luận:** Chặng 1 đạt Checkpoint 1. Nhóm chọn điều tra **Pain A (Diagnosis gap)** với 4 falsifier,
 dự phòng B kiểm tra song song cùng bộ câu hỏi. Đầu ra chuyển sang Chặng 2: viết Conversation Guide
-(xem [plan-cp2.md](plan-cp2.md)).
+(xem [plan-cp2.md](../cp2/plan-cp2.md)).
 
 ---
 
@@ -252,4 +252,4 @@ dự phòng B kiểm tra song song cùng bộ câu hỏi. Đầu ra chuyển san
 | 4 · Chỉnh guide & nộp | Rà soát interview guide | Tổng hợp giả thuyết, kiểm tra format, submit |
 
 **Nguồn tham chiếu:** [chang-1-dat-gia-thuyet.md](chang-1-dat-gia-thuyet.md) ·
-[cp1-tuong.md](cp1-tuong.md) · [cp1-phuong.md](cp1-phuong.md) · [plan-cp2.md](plan-cp2.md)
+[cp1-tuong.md](cp1-tuong.md) · [cp1-phuong.md](cp1-phuong.md) · [plan-cp2.md](../cp2/plan-cp2.md)

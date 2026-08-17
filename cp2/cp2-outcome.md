@@ -7,7 +7,7 @@
 **Trạng thái:** ✅ Chặng 2 hoàn thành — Conversation Guide sẵn sàng cho Chặng 3 (luyện phỏng vấn)
 
 > File này là **bản tổng hợp cuối** của Chặng 2, hợp nhất từ `plan-cp2.md`, Evidence Map và Problem
-> Hypothesis ở [cp1-outcome.md](cp1-outcome.md). Guide này **không** mời user đánh giá solution — chỉ
+> Hypothesis ở [cp1-outcome.md](../cp1/cp1-outcome.md). Guide này **không** mời user đánh giá solution — chỉ
 > khai thác sự kiện và hành vi quá khứ để tìm bằng chứng về pain.
 
 ---
@@ -129,5 +129,5 @@ Phương đóng user, lượt 2 đổi vai; ghi chú bằng bảng đọc eviden
 
 ---
 
-**Nguồn tham chiếu:** [plan-cp2.md](plan-cp2.md) · [cp1-outcome.md](cp1-outcome.md) ·
-[chang-1-dat-gia-thuyet.md](chang-1-dat-gia-thuyet.md)
+**Nguồn tham chiếu:** [plan-cp2.md](plan-cp2.md) · [cp1-outcome.md](../cp1/cp1-outcome.md) ·
+[chang-1-dat-gia-thuyet.md](../cp1/chang-1-dat-gia-thuyet.md)
