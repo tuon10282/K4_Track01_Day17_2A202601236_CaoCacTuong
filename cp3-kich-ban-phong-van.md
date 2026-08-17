@@ -42,7 +42,7 @@
 
 ### **Q4. Bạn đã tra từ khoá gì khi tìm kiếm? Vì sao chọn từ khoá đó?**
 
-> **A:** Em gõ `"pytest HITL fail"` trên Google. Vì em đoán là do cấu hình, nhưng kết quả ra đủ thứ kiểu `"mock"`, `"async timeout"`, `"fixture"` — mỗi bài một khác, em phải tự dịch lại. Loay hoay 30 phút vẫn không hiểu.
+> **A:** Em gõ `"pytest HITL fail"` trên Google. Vì em đoán là do cấu hình, nhưng kết quả ra toàn đủ thứ kiểu `"mock"`, `"async timeout"`, `"fixture"` — mỗi bài một khác, em phải tự dịch lại. Loay hoay 30 phút vẫn không hiểu.
 
 ---
 
@@ -80,61 +80,61 @@
 
 > **Bối cảnh:** Learner đang học khoá *AI Engineering*, làm bài lab *"RAG Pipeline v2: Retrieval Hybrid, Vectorless Fallback & Generation có Citation"*. Learner mắc kẹt ở bước cấu hình cơ chế Vectorless Fallback kết hợp BM25 và trích xuất Citation metadata khi sinh câu trả lời.
 
-### **Q1. Trong 7 ngày gần đây, có lần nào bạn học mà xem lại video/code bài lab vẫn không hiểu một phần không?**
+### **Q1. Trong tuần qua, có buổi học RAG nào mà bạn ngồi viết code hay chạy test bài lab mà bị "nghẽn" lại, tua đi tua lại bài giảng vẫn không qua được không?**
 
-> **A (User — kể thật):** Có chứ. Tối thứ 4 vừa rồi em học bài lab *RAG Pipeline v2* thì mắc ở đoạn làm cơ chế `Vectorless Fallback` kết hợp BM25 khi vector DB bị timeout. Chạy test case fallback cứ bị fail, đọc lại tài liệu hướng dẫn bài lab 3 lần vẫn không hiểu tại sao.
-
----
-
-### **Q2. Kể mình nghe về lần gần nhất đó — bài gì, học lúc nào?**
-
-> **A:** Bài lab *"RAG Pipeline v2: Retrieval Hybrid, Vectorless Fallback & Generation có Citation"* thuộc khoá AI Engineering. Em học lúc tầm 10h tối, đang làm phần ghép kết quả BM25 với Dense Vector rồi sinh Citation metadata thì test fail ở câu lệnh gộp score.
+> **A (User — kể thật):** Có chứ. Tối thứ 4 vừa rồi em làm bài lab RAG Pipeline v2, bị kẹt ở đoạn cấu hình `Vectorless Fallback` dùng BM25 khi vector database bị timeout. Chạy suite test case fallback toàn báo lỗi, xem lại slide với video hướng dẫn 3 lần vẫn không hiểu nguyên do.
 
 ---
 
-### **Q3. Lúc đó bạn có biết mình đang thiếu kiến thức nền nào không? Bạn có nói được cụ thể không?** *(Phân biệt Pain A vs Pain B)*
+### **Q2. Bạn nhớ lại lúc đó xem, cụ thể là bạn đang làm tới bước nào của bài lab và lúc đó là mấy giờ đêm rồi?**
 
-> **A (Nghiêng A — Không gọi tên được chỗ hổng):**  
-> *"Em chịu luôn. Em chỉ thấy test báo error log `KeyError: citation_score` và kết quả RAG không kèm được nguồn tham chiếu. Em không biết mình đang hổng kiến thức về Reciprocal Rank Fusion (RRF), cú pháp Pydantic Schema của LangChain, hay do em chưa hiểu luồng Fallback của BM25. Không biết nên gõ từ khoá gì để tìm luôn."*  
-
-> **A (Nghiêng B — Gọi tên được chỗ hổng nhưng ngại tốn chi phí ngắt mạch):**  
-> *"Em biết rõ là em đang hổng công thức tính trọng số Reciprocal Rank Fusion (RRF) ở bài lab tuần trước. Nhưng lúc đó khuya rồi, nghĩ tới việc phải tạm dừng bài v2 này, lội lại video và bài đọc RRF cũ thì mất chắc phải 40–50 phút nên em nản, thôi cứ sửa đại code cho xong."*
+> **A:** Tầm 10h tối thứ 4. Em đang gộp kết quả tìm kiếm giữa BM25 với Dense Vector để sinh `Citation metadata` đính kèm vào câu trả lời của LLM thì unit test bị trượt ngay dòng tính điểm fusion.
 
 ---
 
-### **Q4. Bạn đã tra từ khoá gì khi tìm kiếm? Vì sao chọn từ khoá đó?**
+### **Q3. Lúc thấy test trượt dính lỗi đó, bạn có tự gọi tên được chính xác mình đang bị hổng kiến thức hay thuật toán nền nào không?** *(Phân biệt Pain A vs Pain B)*
 
-> **A:** Em mở tab mới ra Google gõ đại: `"langchain RAG hybrid search citation error"`. Vì em đoán do thư viện. Kết quả ra toàn bài hướng dẫn dùng LlamaIndex hoặc bản LangChain v0.1 cũ rích không dùng được cho v2, em loay hoay đọc 30 phút vẫn không giải quyết được.
+> **A (Nghiêng A — Diagnosis Gap / Không gọi tên được chỗ hổng):**  
+> *"Thực sự là em mù tịt luôn. Terminal chỉ hiện một dòng `KeyError: citation_score` ngắn tủn. Em không phân biệt nổi là do em hổng kiến thức toán Reciprocal Rank Fusion (RRF), chưa nắm Pydantic Schema của LangChain, hay do hiểu sai luồng BM25 Fallback. Chẳng biết phải gõ từ nào lên mạng để tìm cách sửa."*  
 
----
-
-### **Q5. Sau khi thấy không hiểu, bạn đã làm gì tiếp theo?**
-
-> **A:** Em tua lại video bài giảng 2 lần, rồi chụp log lỗi quăng vào nhóm Discord/Zalo hỗ trợ của lớp. Nhưng lúc đó 11h đêm rồi không có trợ giảng trực, có 1 bạn học cùng khoá vào rep nhưng khuyên câu chung chung *"xem lại API key Embeddings"* — không đúng chỗ em bị kẹt.
+> **A (Nghiêng B — Momentum Gap / Gọi tên được nhưng ngại ngắt mạch):**  
+> *"Em biết tống táng là em quên công thức tính weight của Reciprocal Rank Fusion (RRF) đã dạy ở bài lab tuần trước. Nhưng lúc đó 10h30 tối rồi, nghĩ tới chuyện ngắt mạch bài v2 này để lội lại bài đọc RRF cũ thì ngán quá, mất cả 45 phút nên em nản, đành gõ bừa một con số cố định vào code cho qua."*
 
 ---
 
-### **Q6. Bạn mất bao lâu từ lúc thấy không hiểu đến khi xử lý xong (hoặc bỏ cuộc)?**
+### **Q4. Lúc không biết làm sao, bạn đã thử gõ từ khóa gì lên Google để tra cứu?**
 
-> **A:** Tầm 45 phút. Cuối cùng em comment tạm đoạn `assert citation_score` trong unit test cho nó xanh test để nộp bài, chứ thực ra đoạn Fallback và Citation đó em chưa hiểu vì sao code chạy.
-
----
-
-### **Q7. Vì không hiểu hết đoạn đó, về sau (ở các bài tiếp theo) có chuyện gì xảy ra không?**
-
-> **A:** Có chứ. Qua bài lab tuần này làm về *"Evaluations & Hallucination Guardrails cho RAG"*, bài mới yêu cầu đánh giá độ chính xác của Citation dựa trên Hybrid Retrieval. Vì bài trước em làm đối phó nên qua bài này em hoàn toàn bị mất gốc, làm lại trượt test liên tục, tốn nguyên cả ngày chủ nhật ngồi vật lộn lại từ đầu.
+> **A:** Em gõ đại `langchain RAG hybrid search citation error`. Vì em cứ nghĩ lỗi tại thư viện. Nó nhảy ra toàn bài hướng dẫn dùng LlamaIndex hoặc bản LangChain v0.1 cũ không xài được cho v2. Ngồi lướt lướt mất 30 phút mà chả giải quyết được gì.
 
 ---
 
-### **Q8. Tình trạng mắc kẹt kiểu này là một lần duy nhất hay bạn gặp thường xuyên?**
+### **Q5. Tra Google không ăn thua thì bạn xử lý tiếp thế nào?**
 
-> **A:** Em gặp hoài. Mấy bài lab về kiến trúc nâng cao (Router, Hybrid Search, Multi-query) bài nào bài nấy đều dài, tuần nào em cũng bị vướng 2–3 lần ở các khái niệm tích luỹ nền tảng.
+> **A:** Em chụp nguyên cái màn hình lỗi gửi vào kênh Zalo/Discord hỗ trợ của lớp VLearn. Mà lúc đó 11h đêm rồi nên không có trợ giảng nào reply. Có một bạn học cùng khóa vào nhắn *"xem lại API Key Embedding xem"*, nghe xong em càng rối thêm vì lỗi này đâu liên quan tới API key.
 
 ---
 
-### **Q9. Lúc đó cảm xúc của bạn thế nào? Hôm sau bạn còn nhớ hay bị ảnh hưởng gì không?**
+### **Q6. Tính từ lúc bị kẹt tới lúc bạn bỏ cuộc tắt máy thì mất bao nhiêu thời gian? Bạn đã nộp bài thế nào?**
 
-> **A:** Rất áp lực và bực mình. Đi làm cả ngày mệt, tối về học lại bị kẹt ở đoạn thuật toán nền. Sáng hôm sau đi làm ngồi ở công ty vẫn chưa nguôi cảm giác bất an vì bài lab chưa xong hoàn chỉnh.
+> **A:** Tốn nguyên 45 phút cuống cuồng. Cuối cùng em comment tạm dòng `assert citation_score` trong file test cho test nó xanh để kịp bấm nộp bài trước 12h đêm, chứ thực sự đoạn Fallback với Citation đó em nộp đối phó chứ chưa hiểu.
+
+---
+
+### **Q7. Việc nộp đối phó đoạn đó có kéo theo rắc rối gì cho bạn ở các bài lab phía sau không?**
+
+> **A:** Rắc rối to luôn! Qua bài lab tuần này làm về `Evaluations & Hallucination Guardrails`, bài tập yêu cầu đo đạc độ chính xác của Citation dựa trên Hybrid Retrieval. Vì bài trước em làm lấp liếm nên qua bài này em hoàn toàn bị mất gốc, chạy test trượt hàng loạt, phải bỏ ra nguyên cả ngày Chủ nhật ngồi làm lại từ đầu.
+
+---
+
+### **Q8. Tình trạng bị nghẽn bài lab vì hổng kiến thức tích lũy này có lặp lại thường xuyên với bạn không?**
+
+> **A:** Tuần nào cũng bị dính 2–3 lần luôn anh/chị. Mấy bài lab kiến trúc nâng cao như Router, Hybrid Search, Multi-query toàn bài dài, cứ hổng một khái niệm nhỏ là bị đứng hình ngay.
+
+---
+
+### **Q9. Tối hôm đó nằm xuống ngủ bạn thấy thế nào? Hôm sau đi làm có bị ảnh hưởng gì không?**
+
+> **A:** Bực và áp lực lắm. Đi làm về đã mệt mà học không thông. Sáng hôm sau lên công ty ngồi làm việc mà trong đầu vẫn lấn cấn cảm giác nợ bài, cứ lo lắng không biết cuối tuần có kịp trả nợ kiến thức không.
 
 ---
 
